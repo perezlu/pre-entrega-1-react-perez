@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Courgette&family=Nunito&display=swap');
+/*font-family: 'Caveat', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Nunito', sans-serif;
+#F0E4AF color de fondo beige muy clarito
+#A69472 color de fondo más oscurito
+#373228 color textos 
+#59574C color secundario grisáceo para subtítulos capaz
+#845B29 marron vivido
+#5f6c73 azul oscuro*/
+*{
+    padding: 0px;
+    margin: 0;
+    color:#373228;
+}
+body{
+    background-color: #F0E4AF;
+    font-family: 'Nunito', sans-serif;
+}
+main {
+    z-index: 0;
+}
+span{
+    display: inline-block;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav img{
+    max-width: 70px;
+}
+nav ul{
+    align-items: center;
+}
+button .navbarToggler{
+    align-self: left;
+}
+.aviso{
+    font-family: 'Courgette', cursive;
+    background-color: #A69472;
+    opacity: 70%;
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #A69472;
+    border-radius: 45px 45px 0 0;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px ;
+}
+footer p {
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+footer li{
+    padding: 3px;
+}
+footer a{
+    text-decoration: none;
+    color:#373228;
+}
+a:hover{
+    text-decoration: underline;
+    color: #373228bb;
+}
+.form-outline{
+    width: 100%;
+    padding: 10px 0 0;
+}
+
+@media screen and (min-width: 996px) {
+    nav ul{
+        align-items: center;
+    }
+    .footerCont{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    }
+    .redesSociales, .newsletter{
+    border-left: #37322880 1px solid;
+    }
+    footer div{
+        width: 33.3%;
+        padding: 20px 20px 0 ;
+    }
+}
