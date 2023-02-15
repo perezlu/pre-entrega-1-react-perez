@@ -1,5 +1,6 @@
 import React from 'react'
 import './navbar.css'
+import logo from './img/beigedOutShort.svg'
 
 const Navbar = () => {
     return (
@@ -25,8 +26,8 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <img class="navbar-brand" href="./index.html" src="/img/beigedOutShort.svg"></img>
-                    <i class="fa-solid fa-cart-shopping" href="./sections/checkout.html"></i>
+                    <img className="navbar-brand" href="./index.html" src={logo} alt="imagen de logo, que dice Beiged Out"></img>
+                    <i className="fa-solid fa-cart-shopping" href="./sections/checkout.html" alt="elemento con forma de carrito que permite ver lo que"></i>
                     
                 </div>
             </nav>

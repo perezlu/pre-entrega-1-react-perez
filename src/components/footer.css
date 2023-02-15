@@ -1,0 +1,59 @@
+
+*{
+    padding: 0px;
+    margin: 0;
+    color:#373228;
+}
+body{
+    background-color: #F0E4AF;
+    font-family: 'Nunito', sans-serif;
+}
+span{
+    display: inline-block;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+main{
+    z-index: 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+footer {
+    background-color: #A69472;
+    border-radius: 45px 45px 0 0;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px ;
+}
+footer p {
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+footer li{
+    padding: 3px;
+}
+footer a{
+    text-decoration: none;
+    color:#373228;
+}
+a:hover{
+    text-decoration: underline;
+    color: #373228bb;
+}
+.form-outline{
+    width: 100%;
+    padding: 10px 0 0;
+}
